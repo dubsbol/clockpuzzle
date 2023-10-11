@@ -1,4 +1,4 @@
-from time import gmtime, strftime
+from time import strftime
 import datetime
 import curses
 
