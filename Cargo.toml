@@ -9,3 +9,6 @@ edition = "2021"
 chrono = "0.4.34"
 csr = "0.8.2"
 yew = { version = "0.21.0", features = ["csr"] }
+
+[profile.release]
+lto = true
