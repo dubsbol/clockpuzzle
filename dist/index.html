@@ -1,14 +1,26 @@
 <!DOCTYPE html><html><head>
         <meta charset="utf-8">
         <title>Yew App</title>
+        <style>
+            .container {
+                display: grid; 
+                justify-content: center;
+                font-size: xx-large;
+                margin: auto;
+                width: 50%;
+            }
+            .line-element {
+                margin: auto;
+            }
+        </style>
     
-<link rel="preload" href="/clockpuzzle-280d463205e6393c_bg.wasm" as="fetch" type="application/wasm" crossorigin="anonymous" integrity="sha384-6FeO_OsavKWH8e9oSUq-xkXeuyhdUxuU0AFopn6zGZ6AKb-srUaHN6Unz1WO1aJu">
-<link rel="modulepreload" href="/clockpuzzle-280d463205e6393c.js" crossorigin="anonymous" integrity="sha384-X24aid_3dPAPj_9zNUNoAsosI-MFFpPQWUFZgHEa7DTDcV4ykg2hpxQfhxeB81tq"></head>
+<link rel="preload" href="/clockpuzzle-92f088e07f901ee2_bg.wasm" as="fetch" type="application/wasm" crossorigin="anonymous" integrity="sha384-NoFmuesBV_DFsLhaf0_wbSkIkScW1rNWLrbHsQY6BW9b2mzirK_XtRltN4ZvuyF4">
+<link rel="modulepreload" href="/clockpuzzle-92f088e07f901ee2.js" crossorigin="anonymous" integrity="sha384-omtE3lfO3F05MOlfQIRiZUqIy90jvV_GAMm93R_9RsoQBX8kM2BCB-AgQrkXMvAF"></head>
     <body>
 
 <script type="module">
-import init, * as bindings from '/clockpuzzle-280d463205e6393c.js';
-init('/clockpuzzle-280d463205e6393c_bg.wasm');
+import init, * as bindings from '/clockpuzzle-92f088e07f901ee2.js';
+init('/clockpuzzle-92f088e07f901ee2_bg.wasm');
 window.wasmBindings = bindings;
 
 </script><script>"use strict";
