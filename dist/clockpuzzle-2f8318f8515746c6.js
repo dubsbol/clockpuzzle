@@ -650,8 +650,8 @@ function __wbg_get_imports() {
         const ret = makeClosure(arg0, arg1, 152, __wbg_adapter_20);
         return addHeapObject(ret);
     };
-    imports.wbg.__wbindgen_closure_wrapper3179 = function(arg0, arg1, arg2) {
-        const ret = makeMutClosure(arg0, arg1, 240, __wbg_adapter_23);
+    imports.wbg.__wbindgen_closure_wrapper3187 = function(arg0, arg1, arg2) {
+        const ret = makeMutClosure(arg0, arg1, 239, __wbg_adapter_23);
         return addHeapObject(ret);
     };
 
@@ -693,7 +693,7 @@ async function __wbg_init(input) {
     if (wasm !== undefined) return wasm;
 
     if (typeof input === 'undefined') {
-        input = new URL('clockpuzzle-e7b7b584b687eec0_bg.wasm', import.meta.url);
+        input = new URL('clockpuzzle-2f8318f8515746c6_bg.wasm', import.meta.url);
     }
     const imports = __wbg_get_imports();
 
